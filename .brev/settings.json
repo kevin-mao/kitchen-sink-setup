@@ -1,29 +1,55 @@
 {
-    "[javascript]": {
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 4,
+  "[javascript]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
+  },
+  "[typescriptreact]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.colorTheme": "Solarized Light",
-    "[html]": {
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+      "editor.background": "#191919",
+      "sideBar.background": "#1e1e1e",
+      "editor.lineHighlightBackground":"#202020",
+      "editorCursor.foreground":"#ffffff",
+      "editor.selectionHighlightBackground":"#ffffff28",
+      "editorWarning.foreground":"#d3c441",
+      "list.warningForeground":"#d3c441",
+      "editorError.foreground":"#e97070",
+      "terminal.background": "#1e1e1e",
+      "terminal.foreground":"#D3D0C8",
+      "terminalCursor.background":"#D3D0C8",
+      "terminalCursor.foreground":"#D3D0C8",
+      "terminal.ansiBlack":"#2D2D2D",
+      "terminal.ansiBlue":"#6699CC",
+      "terminal.ansiBrightBlack":"#747369",
+      "terminal.ansiBrightBlue":"#76b9fc",
+      "terminal.ansiBrightCyan":"#66CCCC",
+      "terminal.ansiBrightGreen":"#61da6b",
+      "terminal.ansiBrightMagenta":"#CC99CC",
+      "terminal.ansiBrightRed":"#F2777A",
+      "terminal.ansiBrightWhite":"#F2F0EC",
+      "terminal.ansiBrightYellow":"#FFCC66",
+      "terminal.ansiCyan":"#66CCCC",
+      "terminal.ansiGreen":"#5bc980",
+      "terminal.ansiMagenta":"#CC99CC",
+      "terminal.ansiRed":"#F2777A",
+      "terminal.ansiWhite":"#D3D0C8",
+      "terminal.ansiYellow":"#FFCC66"
+  },
+  "workbench.colorTheme": "Default Material Dark Theme",
+  "workbench.statusBar.visible": true,
+  "[json]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.accessibilitySupport": "off",
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "redhat.telemetry.enabled": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "[markdown]": {
-      "editor.wordWrap": "on",
-      "editor.formatOnSave": false,
-      "editor.quickSuggestions": false
-    },
-    "explorer.confirmDragAndDrop": false
-  }
-  
+  },
+  "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "terminal.integrated.tabs.enabled": false
+}
