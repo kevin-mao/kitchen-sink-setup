@@ -16,7 +16,7 @@ code-server --install-extension dbaeumer.vscode-eslint
 code-server --install-extension eamodio.gitlens
 
 # move settings.json to .vscode directory
-cp .brev/settings.json /home/brev/.local/share/code-server/User/settings.json
+# cp .brev/settings.json /home/brev/.local/share/code-server/User/settings.json
 
 # copy over bash_profile and source it 
 cat .brev/.bash_profile >> ~/.zshrc
